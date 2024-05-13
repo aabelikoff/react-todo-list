@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aabelikoff.github.io/react-todo-list/static/css/main.c22c7c61.css",
+    "main.js": "/aabelikoff.github.io/react-todo-list/static/js/main.638d7093.js",
+    "index.html": "/aabelikoff.github.io/react-todo-list/index.html",
+    "main.c22c7c61.css.map": "/aabelikoff.github.io/react-todo-list/static/css/main.c22c7c61.css.map",
+    "main.638d7093.js.map": "/aabelikoff.github.io/react-todo-list/static/js/main.638d7093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c22c7c61.css",
+    "static/js/main.638d7093.js"
+  ]
+}
