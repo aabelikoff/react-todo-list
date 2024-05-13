@@ -1,0 +1,33 @@
+$header_bg: #343a40;
+$header_color: #fd7e14;
+$logo_gradient: linear-gradient(to bottom, #fd7e14, #ffae42);
+.TodoHeader {
+  background-color: $header_bg;
+  color: $header_color;
+  font-size: 24px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .controls {
+    display: flex;
+    gap: 8px;
+  }
+  .logo {
+    background: $logo_gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .TodoHeader {
+    flex-direction: column;
+    padding: 12px 12px 16px;
+  }
+  .controls .form-btn {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
